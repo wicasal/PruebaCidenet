@@ -50,8 +50,6 @@ $(document).ready(function () {
         if (validate_fechaMayorQue(fechaInicial, fechaFinal)) {
             alert("La fecha " + fechaFinal + " es superior a la fecha " + fechaInicial);
             $('#FechaIngreso').val("");
-        } else {
-            //document.write("La fecha " + fechaFinal + " NO es superior a la fecha " + fechaInicial);
         }
     });
 

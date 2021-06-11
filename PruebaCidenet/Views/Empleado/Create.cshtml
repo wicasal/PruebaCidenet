@@ -14,7 +14,6 @@
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="IdPais" class="control-label"></label>
-                @*<input asp-for="IdPais" class="form-control" />*@
                 <select asp-for="IdPais" asp-items="@Model.listaPaises">
                     <option>Please select one</option>
                 </select>
@@ -22,7 +21,6 @@
             </div>
             <div class="form-group">
                 <label asp-for="IdTipoIdentificacion" class="control-label"></label>
-                @*<input asp-for="IdTipoIdentificacion" class="form-control" />*@
                 <select asp-for="IdTipoIdentificacion" asp-items="@Model.listaTipoIdentificacion">
                     <option>Please select one</option>
                 </select>
@@ -66,7 +64,6 @@
             </div>
             <div class="form-group">
                 <label asp-for="idArea" class="control-label"></label>
-                @*<input asp-for="idArea" class="form-control" />*@
                 <select asp-for="idArea" asp-items="@Model.listaAreas">
                     <option>Please select one</option>
                 </select>
